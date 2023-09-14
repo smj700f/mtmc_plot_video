@@ -1,0 +1,5 @@
+conda create -n test-20230813 python=3.8.17 -y
+conda activate test-20230813
+pip install opencv-python==4.7.0.68
+pip install numpy==1.23.5
+pip install PyYAML==6.0
