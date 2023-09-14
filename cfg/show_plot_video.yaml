@@ -1,0 +1,21 @@
+cam_infos:
+  - name: cam1_target
+    file: video\20230731-part3\20230731_門口2_081613-2.mp4
+  - name: cam2_target
+    file: video\20230731-part3\20230731_窗戶2_010009-2.mp4
+  - name: cam3_target
+    file: video\20230731-part3\20230731_冰箱2_075906-2.mp4
+  - name: cam4_target
+    file: video\20230731-part3\20230731_櫃檯2_081405-2.mp4
+
+run_path: run
+target_path: 20230731-part3
+
+max_frame_id: 9030
+save_video: True
+save_video_name: 20230731-part3.mp4
+save_video_fps: 30
+save_video_size: [1280, 720]
+
+save_bbox_img: False
+save_bbox_img_path: img
